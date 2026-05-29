@@ -1707,6 +1707,24 @@ background-position:center right;
 }
 
 /* =========================
+   SERVICIOS PORTUARIOS
+========================= */
+
+.servicios-portuarios-hero {
+  background-image: url("../img/servicios/servicio-portuario-v4.jpg");
+}
+
+/* VIDEO GALERIA SERVICIOS */
+
+.servicio-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* =========================
    FOOTER
 ========================= */
 
