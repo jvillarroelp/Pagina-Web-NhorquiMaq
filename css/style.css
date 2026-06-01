@@ -321,7 +321,7 @@ html {
   position: relative;
   min-height: calc(100vh - 95px);
   padding: 45px 0 60px;
-  background-image: url("../img/grua-vertical.jpg");
+  background-image: url("../img/servicios-fondo.jpg");
   background-size: cover;
   background-position: center;
   overflow: hidden;
