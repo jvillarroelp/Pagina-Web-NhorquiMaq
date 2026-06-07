@@ -632,6 +632,17 @@ body {
    CLIENTES
 ========================= */
 
+#clientes {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: #ffffff;
+}
+
+#clientes .row {
+  margin-top: 55px;
+  margin-bottom: 35px;
+}
+
 .client-logo-card {
   background: #ffffff;
   padding: 25px;
