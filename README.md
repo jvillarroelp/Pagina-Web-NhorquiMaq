@@ -22,7 +22,6 @@ Página web informativa para la empresa HorquiMaq, empresa que presta servicios 
 | Estilos              | CSS personalizado en `style.css`                                                      |
 | Interactividad       | JavaScript propio en `script.js`                                                      |
 | Formularios          | FormSubmit para envío de mensajes por correo                                          |
-                                                     |
 ---
 
 ## Estructura del Proyecto
