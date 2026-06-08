@@ -57,11 +57,8 @@ Pagina-Web-Horquimaq/
 │   │
 │   ├── servicios/                # Imágenes y videos de servicios
 │   │
-│   ├── clientes/                 # Logos de clientes
 │   │
-│   ├── icons/                    # Íconos utilizados
-│   │
-│   └── backgrounds/              # Fondos de secciones y hero banners
+│   └── icons/                    # Íconos utilizados
 │
 └── README.md                     # Documentación del proyecto
 ```
