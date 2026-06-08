@@ -698,7 +698,7 @@ body {
 
 .contact-info-side {
   position: relative;
-  min-height: 655px;
+  min-height: 100%;
   background-image: url("../img/contacto-bg.jpg");
   background-size: cover;
   background-position: center;
@@ -1774,6 +1774,23 @@ background-position:center right;
   background-image: url("../img/servicios/consolidado-v7.jpg");
 }
 
+/* =========================
+   MENSAJES FORMULARIO 
+========================= */
+
+.alert-success {
+  background: #e8fff0;
+  border: 1px solid #c5f1d5;
+  color: #198754;
+  border-radius: 10px;
+}
+
+.alert-danger {
+  background: #fff0f0;
+  border: 1px solid #f5c2c7;
+  color: #dc3545;
+  border-radius: 10px;
+}
 
 /* =========================
    FOOTER
