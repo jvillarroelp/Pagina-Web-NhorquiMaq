@@ -29,7 +29,6 @@
           <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
           <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
           <li class="nav-item"><a class="nav-link" href="equipos.html">Equipos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
           <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
         </ul>
       </div>
@@ -262,69 +261,6 @@
   </div>
 </section>
 
-<!-- GALERÍA -->
-<section id="galeria" class="home-galeria-section">
-
-  <div class="container">
-
-    <div class="home-galeria-header text-center">
-      <h2>Galería</h2>
-      <div class="section-line mx-auto mb-4"></div>
-      <p>
-        Registro visual de trabajos, operaciones y servicios realizados por HorquiMaq.
-      </p>
-    </div>
-
-    <!-- CARRUSEL PRINCIPAL -->
-    <div id="galeriaCarousel" class="carousel slide home-galeria-carousel" data-bs-ride="carousel" data-bs-interval="4500">
-
-      <div class="carousel-inner">
-
-        <div class="carousel-item active">
-          <img src="img/servicios/pega-zofri.jpg" class="d-block w-100" alt="Trabajo HorquiMaq 1">
-        </div>
-
-        <div class="carousel-item">
-          <img src="img/servicios/servicio-portuario-v6.jpg" class="d-block w-100" alt="Trabajo HorquiMaq 2">
-        </div>
-
-        <div class="carousel-item">
-          <img src="img/servicios/servicio-portuario-v7.jpg" class="d-block w-100" alt="Trabajo HorquiMaq 3">
-        </div>
-
-        <div class="carousel-item">
-          <img src="img/servicios/servicio-portuario-v8.jpg" class="d-block w-100" alt="Trabajo HorquiMaq 3">
-        </div>
-
-      </div>
-
-      <button class="carousel-control-prev" type="button" data-bs-target="#galeriaCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-
-      <button class="carousel-control-next" type="button" data-bs-target="#galeriaCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
-
-    </div>
-
-  </div>
-
-</section>
-
-<!-- MODAL GALERÍA -->
-<div class="modal fade" id="modalGaleria" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
-    <div class="modal-content home-galeria-modal">
-
-      <button type="button" class="btn-close btn-close-white home-galeria-close" data-bs-dismiss="modal"></button>
-
-      <img id="modalGaleriaImg" src="" alt="Imagen ampliada HorquiMaq">
-
-    </div>
-  </div>
-</div>
-
 <!-- CONTACTO -->
 <section id="contacto" class="contact-section">
 
@@ -496,18 +432,6 @@
       });
 
   </script>
-
-<script>
-  const modalGaleria = document.getElementById("modalGaleria");
-  const modalGaleriaImg = document.getElementById("modalGaleriaImg");
-
-  modalGaleria.addEventListener("show.bs.modal", function (event) {
-    const imagen = event.relatedTarget;
-    const rutaImagen = imagen.getAttribute("data-img");
-
-    modalGaleriaImg.src = rutaImagen;
-  });
-</script>
 
 </body>
 </html>
