@@ -1797,7 +1797,7 @@ background-position:center right;
 ========================= */
 
 #galeria {
-  scroll-margin-top: 15px;
+  scroll-margin-top: -135px;
 }
 
 .home-galeria-section {
