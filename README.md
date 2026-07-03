@@ -64,5 +64,5 @@ Pagina-Web-Nhorquimaq/
 
 ## Estado del Proyecto
 
-Estado: `En desarrollo`  
+Estado: `Finalizado`  
 
