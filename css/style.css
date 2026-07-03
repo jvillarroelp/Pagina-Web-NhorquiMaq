@@ -2011,3 +2011,31 @@ background-position:center right;
     padding: 10px 22px;
   }
 }
+
+/* =========================
+   FIX MENÚ MÓVIL NAVBAR AMARILLA
+========================= */
+
+@media (max-width: 991px) {
+  .navbar-scrolled .navbar-collapse {
+    background: rgba(253, 185, 19, 0.96);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  .navbar-scrolled .navbar-collapse .nav-link {
+    color: #111111 !important;
+    font-weight: 500;
+  }
+
+  .navbar-scrolled .navbar-collapse .nav-link:hover {
+    color: #ffffff !important;
+  }
+
+  .navbar-scrolled .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.35);
+  }
+
+  .navbar-scrolled .navbar-toggler-icon {
+    filter: invert(1);
+  }
+}
