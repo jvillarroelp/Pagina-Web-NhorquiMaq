@@ -2099,3 +2099,23 @@ background-position:center right;
     color: #ffffff !important;
   }
 }
+
+/* =========================
+   QUITAR BLOQUE AMARILLO MENÚ MÓVIL
+========================= */
+
+@media (max-width: 991px) {
+  .navbar-custom.navbar-scrolled .container {
+    background: transparent !important;
+  }
+
+  .navbar-custom.navbar-scrolled .navbar-collapse,
+  .navbar-custom.navbar-scrolled .navbar-collapse.show,
+  .navbar-custom.navbar-scrolled .navbar-nav,
+  .navbar-custom.navbar-scrolled .navbar-nav .nav-item {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
