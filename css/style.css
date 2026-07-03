@@ -2042,3 +2042,33 @@ background-position:center right;
     color: #ffffff !important;
   }
 }
+
+/* =========================
+   FIX FINAL NAVBAR MOBILE SCROLL
+========================= */
+
+@media (max-width: 991px) {
+
+  .navbar-custom.navbar-scrolled,
+  .navbar-custom.navbar-scrolled .container,
+  .navbar-custom.navbar-scrolled .navbar-collapse,
+  .navbar-custom.navbar-scrolled .navbar-collapse.show,
+  .navbar-custom.navbar-scrolled .navbar-nav {
+    background: rgba(253, 185, 19, 0.96) !important;
+  }
+
+  .navbar-custom.navbar-scrolled .navbar-collapse,
+  .navbar-custom.navbar-scrolled .navbar-collapse.show {
+    box-shadow: none !important;
+    border-radius: 12px;
+  }
+
+  .navbar-custom.navbar-scrolled .nav-link {
+    color: #111111 !important;
+    opacity: 1 !important;
+  }
+
+  .navbar-custom.navbar-scrolled .nav-link:hover {
+    color: #ffffff !important;
+  }
+}
