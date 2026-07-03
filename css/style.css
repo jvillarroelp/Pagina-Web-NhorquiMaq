@@ -2072,3 +2072,30 @@ background-position:center right;
     color: #ffffff !important;
   }
 }
+
+/* =========================
+   MOBILE MENU SIN BLOQUE AL HACER SCROLL
+========================= */
+
+@media (max-width: 991px) {
+  .navbar-custom.navbar-scrolled .navbar-collapse,
+  .navbar-custom.navbar-scrolled .navbar-collapse.show {
+    background: transparent !important;
+    padding: 18px 0 !important;
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .navbar-custom.navbar-scrolled .navbar-nav {
+    background: transparent !important;
+  }
+
+  .navbar-custom.navbar-scrolled .nav-link {
+    color: #111111 !important;
+  }
+
+  .navbar-custom.navbar-scrolled .nav-link:hover {
+    color: #ffffff !important;
+  }
+}
