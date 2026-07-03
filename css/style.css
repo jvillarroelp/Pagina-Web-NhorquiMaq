@@ -1905,3 +1905,109 @@ background-position:center right;
   color: white;
   padding: 20px 0;
 }
+
+
+/* =========================
+   FIX HERO HOME RESPONSIVE
+========================= */
+
+@media (max-width: 991px) {
+  .navbar-custom {
+    padding: 18px 0;
+  }
+
+  .navbar-custom .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .logo-navbar {
+    height: 50px;
+    max-width: 260px;
+    object-fit: contain;
+  }
+
+  .navbar-collapse {
+    margin-top: 15px;
+    background: rgba(0, 0, 0, 0.88);
+    padding: 18px;
+    border-radius: 12px;
+  }
+
+  .navbar .nav-link {
+    margin-left: 0;
+    padding: 10px 0;
+  }
+
+  .hero-content {
+    justify-content: center;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .hero-content-left {
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 100%;
+  }
+
+  .hero-title {
+    font-size: clamp(2.4rem, 11vw, 4rem);
+    line-height: 1.05;
+    max-width: 100%;
+  }
+
+  .hero-subtitle {
+    font-size: 1.05rem;
+    line-height: 1.45;
+    max-width: 95%;
+  }
+
+  .video-control {
+    right: 24px;
+    bottom: 35px;
+    width: 56px;
+    height: 56px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-video {
+    height: 100svh;
+    min-height: 720px;
+  }
+
+  .background-video {
+    object-position: center center;
+  }
+
+  .video-overlay {
+    background: rgba(0, 0, 0, 0.48);
+  }
+
+  .logo-navbar {
+    height: 48px;
+    max-width: 250px;
+  }
+
+  .hero-content-left {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.05rem;
+    max-width: 280px;
+  }
+
+  .hero-content .btn {
+    font-size: 1rem;
+    padding: 10px 22px;
+  }
+}
