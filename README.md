@@ -1,6 +1,6 @@
-# HorquiMaq - Página web
+# NhorquiMaq - Página web
 
-Página web informativa para la empresa HorquiMaq, empresa que presta servicios de grúas horquillas hacia el sector portuario de Iquique.
+Página web informativa para la empresa NhorquiMaq, empresa que presta servicios de grúas horquillas hacia el sector portuario de Iquique.
 
 ---
 
@@ -27,7 +27,7 @@ Página web informativa para la empresa HorquiMaq, empresa que presta servicios 
 ## Estructura del Proyecto
 
 ```
-Pagina-Web-Horquimaq/
+Pagina-Web-Nhorquimaq/
 │
 ├── test.html                     # Página principal
 ├── servicios.html                # Catálogo de servicios
